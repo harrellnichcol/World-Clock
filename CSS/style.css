@@ -1,7 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
 h1 {
   text-align: center;
 }
 
 footer {
   text-align: center;
+}
+
+.city h2 {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.flag {
+  width: 24px;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
 }
